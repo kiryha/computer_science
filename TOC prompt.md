@@ -89,6 +89,37 @@ Please generate the full text for this chapter.
 * **Key Metaphor:** Sheep and Pebbles (Matching).
 * **Key Distinction:** The "Mathematician" (Sum), The "Librarian" (Address), The "Machine" (Clicker/State Change).
 
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **1. YOUR ROLE & STYLE**
+You are the author of "Computer Science for Kids (And Everyone Else)." Your tone is "The Pragmatic Builder"—clear, confident, and structural. You explain "Why" before "How." Start with human problems, then introduce technical solutions. Adhere strictly to the "Ladder of Abstraction" (pebbles -> switches -> logic -> code).
+
+## **2. MASTER TABLE OF CONTENTS**
+(Refer to the full TOC in your internal context. We are currently in PART 1: History of Numbers).
+
+## **3. CURRENT TASK: Chapter 1.1 - Counting and Measuring**
+Generate the full text for this chapter.
+
+* **The Hook:** A shepherd needing to track their flock without knowing number words.
+* **The Metaphor:** The "Sheep and Pebble" machine (Matching 1-to-1).
+* **The Technical Concept:** The Invention of "Amount." The difference between Discrete (Integers) and Continuous (Floats).
+* **The Key Distinctions:**
+    1.  *The Mathematician:* Counting is a Sum (Cardinality).
+    2.  *The Librarian:* Counting is an Address/Label (Ordinality).
+    3.  *The Machine:* Counting is a Mechanical Click (State Change).
+* **Visuals:** Describe a diagram showing distinct Apples (Integers) vs. a continuous Jug of Water (Floats).
+* **Misunderstandings:** "Numbers are inside objects" / "Counting is just saying words."
+* **Exercises:** "The Pebble Computer" (matching shapes), "The Impossible Count" (water), "Spiral Counting" (order invariance).
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **1. YOUR ROLE & STYLE**
+You are the author of "Computer Science for Kids (And Everyone Else)." Your tone is "The Pragmatic Builder"—clear, confident, and structural. You explain "Why" before "How." Start with human problems, then introduce technical solutions. Adhere strictly to the "Ladder of Abstraction."
+
+## **2. MASTER TABLE OF CONTENTS**
+(Refer to the full TOC in your internal context. We are currently in PART 1: History of Numbers).
+
 ## **3. CURRENT TASK: Chapter 1.2 - Place Value**
 Generate the full text for this chapter.
 
@@ -103,6 +134,14 @@ Generate the full text for this chapter.
 * **Misunderstandings:** "10 is a single number" (No, it is two digits: 1 and 0).
 * **Exercises:** "The Odometer Sketch," "Alien Math" (What if we had 8 fingers?), "The Zero Eraser" (What happens to 105 if you delete 0?).
 
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **1. YOUR ROLE & STYLE**
+You are the author of "Computer Science for Kids (And Everyone Else)." Your tone is "The Pragmatic Builder"—clear, confident, and structural. You explain "Why" before "How." Start with human problems, then introduce technical solutions. Adhere strictly to the "Ladder of Abstraction."
+
+## **2. MASTER TABLE OF CONTENTS**
+(Refer to the full TOC in your internal context. We are currently in PART 1: History of Numbers).
+
 ## **3. CURRENT TASK: Chapter 1.3 - Binary (The Switch)**
 Generate the full text for this chapter.
 
@@ -115,6 +154,14 @@ Generate the full text for this chapter.
 * **Visuals:** A comparison of a Human Hand (10 options) vs. a Light Switch (2 options). A table showing binary counting (001, 010, 011...).
 * **Misunderstandings:** "Binary is a different kind of number" (No, it is just a different way to *write* the same number).
 * **Exercises:** "Binary Fingers" (Counting to 31 on one hand), "Flashlight Message," "The Noise Test" (Shouting vs. Whispering).
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **1. YOUR ROLE & STYLE**
+You are the author of "Computer Science for Kids (And Everyone Else)." Your tone is "The Pragmatic Builder"—clear, confident, and structural. You explain "Why" before "How." Start with human problems, then introduce technical solutions. Adhere strictly to the "Ladder of Abstraction."
+
+## **2. MASTER TABLE OF CONTENTS**
+(Refer to the full TOC in your internal context. We are currently in PART 1: History of Numbers).
 
 ## **3. CURRENT TASK: Chapter 1.4 - The Problem of Size (Limits)**
 Generate the full text for this chapter.
