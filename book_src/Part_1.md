@@ -118,6 +118,3 @@ To a computer, the number 5 is a **history of events**. To get to 5, the machine
 * **Action:** Put 5 items on the table in a straight line. Count them left to right.
 * **Task:** Mix them up into a circle. Count them again.
 * **Lesson:** The pattern changed, but the **State** (5) remained **Invariant**. Computers rely on this stability—that data doesn't change just because we moved it to a different folder.
-
----
-**Next Step:** Now that we understand how to capture Reality into Data, we have a new problem. If you have 500 sheep, your bag of pebbles will be too heavy to carry. We need a way to represent *lots* of data without *lots* of rocks. Proceed to **Chapter 1.2: Place Value (The Magic of 10).**
