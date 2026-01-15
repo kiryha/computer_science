@@ -155,12 +155,6 @@ Then, a mathematical miracle happened (separately in India, Babylon, and South A
 
 > *"What if the value of a symbol didn't come from its shape, but from its **seat**?"*
 
-This is **Positional Notation**. It is the concept that unlocked modern civilization and computing.
-
-
-
-[Image of place value chart]
-
 
 Imagine a row of buckets on a table.
 * **The Right Bucket:** Holds single items (Ones).
@@ -172,6 +166,12 @@ If I put the symbol `2` in the Right Bucket, it is worth 2.
 If I put the symbol `2` in the Left Bucket, it is worth 200.
 
 We recycle the symbols. We don't need a new symbol for "Million"; we just need a bucket far enough to the left.
+
+This is why we call the system **Positional Notation**. The name tells you exactly how it works:
+* **Notation (The Symbol):** This is the shape you write (like `5`). It tells you *how full* the bucket is.
+* **Position (The Place):** This is the location of the bucket (like "Thousands"). It tells you *how big* the bucket is.
+
+In the old Roman system, an `X` was always worth 10, no matter where you wrote it. In our system, the value of a digit is a relationship between its **Notation** and its **Position**.
 
 ## **4. The Hero: The Invention of Zero**
 But there was a fatal flaw in the bucket system.
