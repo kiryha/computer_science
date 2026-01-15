@@ -24,15 +24,35 @@ We will climb the **Ladder of Abstraction**. Each chapter is a rung on that ladd
 ## **The Evolution of the Machine**
 This book is structured as a journey of evolution. We start with nothing, and step-by-step, we build a brain.
 
-1.  **Numbers Exist:** Before we build machines, we must invent a way to count the world (Part 1).
-2.  **Numbers Can Be Encoded:** We learn to fit infinite numbers into physical switches (Part 2).
-3.  **Manipulation Requires Logic:** We discover rules to change those numbers automatically (Part 3).
-4.  **Logic Becomes Circuits:** We build physical gates that can make decisions (Part 4).
-5.  **Circuits Become the CPU:** We organize those gates into a central brain (Part 5).
-6.  **The CPU Needs Algorithms:** We teach the brain efficient ways to think (Part 6).
-7.  **Algorithms Become Languages:** We invent words to talk to the machine (Part 7).
-8.  **Languages Become Software:** We structure those words into complex programs (Part 8).
-9.  **Software Becomes Systems:** We connect programs to manage files, networks, and AI (Part 9).
+- **Numbers Exist**
+Before we build machines, we must invent a way to count the world (Part 1).
+
+-  **Numbers Can Be Encoded**
+We learn to fit infinite numbers into physical switches (Part 2).
+
+-  **Manipulation Requires Logic**
+We discover rules to change those numbers automatically (Part 3).
+
+- **Logic Becomes Circuits**
+We build physical gates that can make decisions (Part 4).
+
+- **Circuits Become the CPU**
+We organize those gates into a central brain (Part 5).
+
+- **The CPU Needs Memory Structure**
+We organize the memory warehouse before we start working (Part 6).
+
+- **Structure Needs Algorithms**
+We teach the brain efficient ways to process that data (Part 7).
+
+- **Algorithms Become Languages**
+We invent words to talk to the machine (Part 8).
+
+- **Languages Become Software**
+We structure those words into complex programs (Part 9).
+
+- **Software Becomes Systems**
+We connect programs to manage files, networks, and AI (Part 10).
 
 ## **How to Read This Book**
 You do not need a computer to read this book. In fact, it is better if you don't have one.
