@@ -29,7 +29,7 @@ Every chapter must follow this exact template:
 Reference this map to understand where we are in the "Ladder of Abstraction."
 
 **PART 1: History of Numbers (The Why)**
-* **1.1 Counting and Measuring** (The Invention of Amount: Sheep & Pebbles) << **CURRENT FOCUS**
+* 1.1 Counting and Measuring (The Invention of Amount: Sheep & Pebbles)
 * 1.2 Place Value (The Magic of 10)
 * 1.3 Binary (The Switch)
 * 1.4 The Problem of Size (Limits & Overflow)
@@ -58,30 +58,39 @@ Reference this map to understand where we are in the "Ladder of Abstraction."
 * 5.3 The Cycle (Fetch-Decode-Execute)
 * 5.4 The ALU (Calculator)
 
-**PART 6: Algorithms (Thinking Smart)**
-* 6.1 Instructions vs. Algorithms
-* 6.2 The Cost of Speed (Big O Simplified)
-* 6.3 Sorting (Bubble vs. Merge)
-* 6.4 Searching (Linear vs. Binary)
-* 6.5 Data Structures (Arrays, Stacks, Queues)
+**PART 6: Data Structures (The Organization)**
+* 6.1 The History of Organization (From Sack to Shelf: Sets, Stacks, Queues)
+* 6.2 The Array (The Egg Carton: Continuous Memory)
+* 6.3 The Hash Map (The Magic Locker: Key-Value Pairs)
+* 6.4 Trees & Graphs (The Road Map: Relationships & Networks)
 
-**PART 7: Instructions Become Languages**
-* 7.1 Machine Code
-* 7.2 Assembly
-* 7.3 The Compiler
-* 7.4 Types & Safety
+**PART 7: Algorithms (The Recipes)**
+* 7.1 Instructions vs. Algorithms (Cooking vs. Recipes)
+* 7.2 The Cost of Speed (Big O Simplified)
+* 7.3 Searching (Finding the Needle: Linear vs. Binary)
+* 7.4 Sorting (Creating Order: Bubble vs. Merge)
 
-**PART 8: Programming Concepts**
-* 8.1 Variables
-* 8.2 Decisions (If/Else)
-* 8.3 Loops
-* 8.4 Functions
+**PART 8: Instructions Become Languages**
+* 8.1 Machine Code (The Native Tongue)
+* 8.2 Assembly (Giving Numbers Names)
+* 8.3 The Compiler (The Translator)
+* 8.4 Types & Safety (Promises about Data)
 
-**PART 9: Systems & The World**
-* 9.1 The Operating System
-* 9.2 Files & Storage
-* 9.3 The Internet
-* 9.4 Artificial Intelligence
+**PART 9: Programming Concepts**
+* 9.1 Variables (Named Boxes)
+* 9.2 Decisions (If/Else)
+* 9.3 Loops (Repetition)
+* 9.4 Functions (Reusable Machines)
+
+**PART 10: Systems & The World**
+* 10.1 The Operating System (The Referee)
+* 10.2 Files & Storage (Permanent Memory)
+* 10.3 The Internet (The Global Nervous System)
+* 10.4 Artificial Intelligence (Machines that Learn)
+
+
+
+
 
 ## **5. CURRENT TASK**
 We are writing **Chapter 1.1: Counting and Measuring**.
@@ -89,7 +98,6 @@ Please generate the full text for this chapter.
 * **Focus:** The invention of "Amount." The difference between Discrete (Integers) and Continuous (Floats).
 * **Key Metaphor:** Sheep and Pebbles (Matching).
 * **Key Distinction:** The "Mathematician" (Sum), The "Librarian" (Address), The "Machine" (Clicker/State Change).
-
 
 # SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
 
