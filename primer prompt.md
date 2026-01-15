@@ -273,3 +273,74 @@ Generate the full text for this chapter.
 * **Exercises:** "The Slide Rule" (Move the decimal point to store a big number in a small box), "The Rounding Trap" (A scenario where a bank loses money because of floating point errors).
 
 
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **3. CURRENT TASK: Chapter 6.1 - The History of Organization (Sack to Shelf)**
+Generate the full text for this chapter.
+
+* **The Hook:** Having 1,000 items is useless if you can't find the one you need. Storage is easy; Retrieval is hard.
+* **The Historical Metaphor:** **The Sack of Pebbles**. The first data structure. It is a "Set." It holds things, but order doesn't matter. To find one specific pebble, you must dump the whole sack.
+* **The Evolution:**
+    * **The Stack:** Stone tablets in a pile. You can only read the top one. (LIFO).
+    * **The Queue:** A line of people. First come, first served. (FIFO).
+* **The Technical Concept:** **Abstract Data Types (ADTs)**. These are rules about *how* we add and remove things.
+* **Key Insight:** Organizing data takes extra effort upfront (sorting/stacking), but saves massive effort later (finding).
+* **Visuals:** A messy sack vs. a neat stack of plates vs. a line of people.
+* **Exercises:** "The Dishwasher" (Is it a Stack or a Queue?), "The Laundry Bag" (Why is a sock drawer better than a laundry bag?).
+
+
+
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **3. CURRENT TASK: Chapter 6.2 - The Array (The Egg Carton)**
+Generate the full text for this chapter.
+
+* **The Hook:** We need a way to find item #50 without counting 1, 2, 3... 49. We need instant access.
+* **The Metaphor:** **The Egg Carton**. Fixed size (12 slots). If you want the egg in slot 5, you reach directly for slot 5. You don't touch slot 1.
+* **The Technical Concept:** **Contiguous Memory**.
+    * Arrays are stored in one solid block of memory.
+    * **Zero-Indexing:** Explain why computers start counting at 0 (The offset from the start).
+* **The Tradeoff:** **Fixed Size**. If you buy a 13th egg, you can't just tape a new cup to the carton. You have to buy a bigger carton and move *all* the eggs.
+* **Visuals:** . A memory strip showing addresses.
+* **Misunderstandings:** "Why can't I just add one more spot?" (Explain the neighbor problem in RAM).
+* **Exercises:** "The Street Address" (If houses are 10 meters wide, how far is house #5?), "The Moving Day" (Simulate copying an array to a larger one).
+
+
+
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **3. CURRENT TASK: Chapter 6.3 - The Hash Map (The Magic Locker)**
+Generate the full text for this chapter.
+
+* **The Hook:** Arrays are fast if you know the *number* (Index). But what if you only know the *name* (e.g., "Find John's phone number")? You don't want to scan the whole phone book.
+* **The Metaphor:** **The Coat Check**. You give a ticket (Key), you get the coat (Value).
+* **The Technical Concept:** **Hashing**.
+    * Turning a name ("John") into a number (Index 42) using a math trick.
+    * **Key-Value Pairs:** The most common way modern programmers store data.
+* **The Magic:** **O(1) Access**. Finding "John" takes 1 step, no matter if the book has 10 names or 1,000,000 names.
+* **Visuals:** A locker room where the locker number comes from spelling the name.
+* **Misunderstandings:** "The computer searches the list." (No! It *calculates* the address).
+* **Exercises:** "The Alphabet Hash" (Create a simple rule: A=1, B=2. Where do we store 'DAD'? Slot 4+1+4 = 9).
+
+
+
+
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **3. CURRENT TASK: Chapter 6.4 - Trees & Graphs (The Road Map)**
+Generate the full text for this chapter.
+
+* **The Hook:** Arrays and Maps are flat lists. But the world is connected. Cities connect to roads. Bosses connect to employees.
+* **The Metaphor:** **The Family Tree** and **The Road Map**.
+* **The Technical Concepts:**
+    * **Tree:** A hierarchy. One root, many branches. (File systems).
+    * **Graph:** A network. No "top" or "bottom." Just Nodes (Cities) and Edges (Roads).
+* **The Application:** **Smartphone Navigation**.
+    * Explain how the phone sees the world as a Graph.
+    * **The A* Algorithm (Intro):** How it finds the shortest path by jumping from node to node.
+* **Visuals:** , .
+* **Exercises:** "The Maze Graph" (Turn a paper maze into a node map), "Six Degrees of Separation" (How many edges between you and the President?).
