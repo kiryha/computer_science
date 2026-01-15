@@ -16,10 +16,13 @@ LIST_OF_FILES = [
 ]
 
 PDF_OPTIONS = {
+    'page-width': '210mm',
+    'page-height': '275mm',
     'margin-top': '15mm',
     'margin-bottom': '15mm',
     'margin-left': '15mm',
     'margin-right': '15mm',
+    'dpi': '300',
 }
 
 #  STYLES 
