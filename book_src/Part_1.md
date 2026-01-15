@@ -119,6 +119,12 @@ To a computer, the number 5 is a **history of events**. To get to 5, the machine
 * **Task:** Mix them up into a circle. Count them again.
 * **Lesson:** The pattern changed, but the **State** (5) remained **Invariant**. Computers rely on this stability—that data doesn't change just because we moved it to a different folder.
 
+**Next Step:** Now that we understand how to capture Reality into Data, we have a new problem. If you have 500 sheep, your bag of pebbles will be too heavy to carry. We need a way to represent *lots* of data without *lots* of rocks.
+
+
+
+
+
 # Chapter 1.2: Place Value (The Invention of the Empty Bucket)
 
 ## **1. The Hook: The Nightmare of Sticks**
@@ -154,7 +160,6 @@ We need a system that can represent **infinite amounts** using a **finite set of
 Then, a mathematical miracle happened (separately in India, Babylon, and South America). Someone asked:
 
 > *"What if the value of a symbol didn't come from its shape, but from its **seat**?"*
-
 
 Imagine a row of buckets on a table.
 * **The Right Bucket:** Holds single items (Ones).
@@ -218,8 +223,6 @@ Computers don't have fingers. They have switches. A switch only has two states: 
 ## **6. The Metaphor: The Odometer**
 To see Positional Notation in motion, look at the **Odometer** (mileage counter) in an old car.
 
-
-
 **The Mechanism:**
 1.  **The Fill:** The wheel on the right spins: 0, 1, 2, 3...
 2.  **The Overflow:** When it hits 9, the bucket is full. It cannot hold "Ten."
@@ -273,6 +276,8 @@ You just traded ten "Ones" for one "Ten." You compressed the data.
 * **Question:** Did the first 5 lose value?
 * **Answer:** Yes. It crashed from being worth 500 to being worth 50. The Zero was the only thing propping it up.
 
+**Next Step:** Now that we know that "Base" is just a container size, we can look at the computer's container. It is very small. It can't hold 10. It can't even hold 2. It can only hold 1.
+
 
 
 # Chapter 1.3: Binary (The Switch)
@@ -323,8 +328,6 @@ A relay is a switch controlled by a magnet, not a finger.
 2.  The coil becomes magnetic.
 3.  The magnet pulls a metal lever down with a *click*.
 4.  The lever closes a *second* circuit.
-
-
 
 This was magic. Now, one electrical signal could trigger another electrical signal. You could chain them together. If you hook up 8 relays, you don't just have 8 lights; you have a machine that can "ripple" information down the line. The machine starts to move on its own.
 
@@ -396,3 +399,119 @@ There is no ambiguity. This creates a "Noise Margin." It allows billions of sign
 * **Action:** Get a battery, a small lightbulb, and two pieces of foil.
 * **Task:** Connect the circuit so the electricity must flow through *both* pieces of foil to reach the bulb. Lift one foil up.
 * **Observation:** The light dies. Both switches must be "Closed" (Touching) for the value to be "1".
+
+**Next Step:** We have built the perfect machine (the Switch). We can store data (Binary) and make decisions (Logic). But there is a limit. If you only have 8 switches, you can only count to 255. What happens when you try to count to 256? 
+
+
+
+
+# Chapter 1.4: The Problem of Size (Limits & Overflow)
+
+## **1. The Hook: The Sticky Note Problem**
+In the last chapter, we built a computer using switches. We learned that we can represent any number in the universe using Binary.
+
+But there is a catch. The universe is infinite, but your hardware is not.
+
+Imagine I give you a small yellow sticky note.
+I tell you: *"Write down your yearly salary."* You can fit it easily ($50,000).
+Then I say: *"Write down the number of atoms in the galaxy."*
+You start writing zeros. You write until you hit the edge of the paper. You write on the desk. You write on the floor. Eventually, you run out of room.
+
+Computers have this exact problem, but worse. A computer cannot write on the desk. It has a rigid, fixed amount of switches for every number. It has a "Hardware Limit."
+What happens when you hit that limit? The computer doesn't just stop. It lies to you.
+
+## **2. The Metaphor: The Odometer Rollover**
+To understand this danger, let's go back to our car's **Odometer**.
+Imagine an old car with a mechanical display that only has **6 digits**.
+The maximum number it can show is **999,999**.
+
+
+
+**The Crisis:**
+You drive one more mile.
+* The `9` becomes a `0` and carries the one.
+* The next `9` becomes a `0` and carries the one.
+* This chain reaction ripples all the way to the left.
+* The final `9` flips to `0` and tries to carry the one... but there is no 7th wheel.
+
+**The Result:** The `1` falls off the edge of reality. It vanishes.
+The odometer reads **000,000**.
+According to the machine, this is a brand new car. According to reality, it is a wreck.
+This phenomenon is called **Overflow**.
+
+## **3. The Technical Explanation: Bit Width**
+In Computer Science, we don't have infinite paper. We decide ahead of time exactly how many switches we will use to store a number. We call this the **Bit Width**.
+
+Think of Bit Width as the "size of the box."
+
+**The 8-Bit Box (The Game Boy Era)**
+Early computers used 8 switches (8 bits) to store a number.
+* **Minimum:** `00000000` (0)
+* **Maximum:** `11111111` (255)
+If you tried to calculate `255 + 1`, the answer wasn't 256. It was **0**.
+(This is why, in old video games, if you collected 256 coins, your score might reset to zero!)
+
+**The 64-Bit Box (The Modern Era)**
+Modern computers usually use 64 switches.
+* **Maximum:** 18,446,744,073,709,551,615.
+This number is so huge that we rarely hit the limit for counting things. But for scientific calculations or encryption, we still have to worry about running out of space.
+
+## **4. Deep Dive: Where does the "Carry" go?**
+When you add `1` to `1111` (Binary 15) in a 4-bit computer, here is exactly what happens physically:
+
+1.  **Add 1:** The first switch flips from 1 to 0. (Carry 1).
+2.  **Ripple:** The next switch flips. (Carry 1).
+3.  **Ripple:** The next switch flips. (Carry 1).
+4.  **The End:** The last switch flips from 1 to 0. It tries to send a "Carry" signal to the next wire.
+5.  **The Drop:** But there is no wire. The electrical pulse hits a dead end. It dissipates into heat.
+
+The information is lost forever.
+The computer is not "broken." It did exactly what you built it to do. It just didn't have enough room to tell the truth.
+
+## **5. Diagram Description**
+> **Diagram Description: The Bucket Overflow**
+>
+> * **Visual:** A plastic bucket filled to the absolute brim with water. The water level is labeled "255 (Max Value)."
+> * **Action:** A hand adds **one single drop** of water to the bucket.
+> * **Result:** The water doesn't just bulge; the surface tension breaks, and water spills over the sides onto the floor.
+> * **The Label:** "Overflow doesn't make the number bigger; it makes a mess."
+
+## **6. Common Misunderstandings**
+
+### **Myth: "Computers are infinitely smart."**
+**Correction:** Computers are finite. They are constrained by physics. If you ask a standard calculator to calculate Pi to the billionth digit, it will fail. It doesn't have enough memory (paper) to write the answer.
+
+### **Myth: "A bigger number is always safe."**
+**Correction:** In overflow, a bigger number is *more* dangerous. If you are storing money and you have \$250 (in an 8-bit system), adding \$10 is safe. Adding \$100 triggers overflow and resets your account to \$94. You just lost money by saving it.
+
+## **7. Exercises: The Paper Computer**
+
+### **Exercise 1: The Clock Test**
+* **Goal:** Understand "Modulus" (Circular Counting).
+* **Action:** Look at a standard wall clock.
+* **Question:** What is **11 + 2**?
+* **Math Answer:** 13.
+* **Clock Answer:** 1.
+* **Lesson:** A clock is a "Base-12" system with automatic overflow. When it hits 12, it wraps around. Computers do this with *every* number system they use.
+
+### **Exercise 2: The 3-Digit Challenge**
+* **Goal:** Crash the system.
+* **Setup:** Draw 3 boxes on a paper: `[ ] [ ] [ ]`. You are only allowed to write one digit in each box.
+* **Task:** Calculate **500 + 600**.
+* **Process:**
+    * 0 + 0 = 0.
+    * 0 + 0 = 0.
+    * 5 + 6 = 11.
+* **The Problem:** You have to write "11" in the first box. You can't. You write the "1" and ignore the other "1".
+* **Result:** The paper says **100**. Your math was right, but your "hardware" failed.
+
+### **Exercise 3: The Y2K Bug Story**
+* **Goal:** A real-world disaster.
+* **Context:** In the 1990s, computer engineers wanted to save space. Instead of storing years as "1998", they just stored "98". They used a 2-digit box.
+* **The Question:** What happens after the year "99"?
+* **The Overflow:** The counter rolls to "00".
+* **The Panic:** Does "00" mean the year 2000? Or does it mean 1900? Will the banks calculate interest for minus 100 years?
+* **Lesson:** This tiny decision to save 2 digits cost billions of dollars to fix. Limits matter.
+
+---
+**Next Step:** We have covered the history and the structure of numbers. We know how to count (Integers). But how do we read? How does a computer turn `01000001` into the letter "A"? Proceed to **Part 2: Numbers are Encoded.**
