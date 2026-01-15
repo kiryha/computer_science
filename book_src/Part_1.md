@@ -184,10 +184,16 @@ Imagine you have **105** sheep.
 If you write this down, you write the `1` (for the hundred) and the `5` (for the ones). You get **15**.
 Wait! That's wrong. 15 is fifteen, not one-hundred-and-five.
 
-The ancient world struggled with this. They tried leaving a gap (`1  5`), but messy handwriting ruined it.
+The ancient world struggled with this. They tried simply leaving a gap on the paper (`1  5`), but messy handwriting ruined it. Was that a space? Or did the writer just slip? It was chaos.
+
+**Then, one of the brightest ideas in human history appeared.**
+Someone decided that the "gap" deserved its own name and its own shape.
 
 **Enter Zero.**
-Zero is not "nothing." Zero is information. Zero is a sign that says: **"This bucket is empty, but do not skip it."**
+
+It sounds obvious to you because you grew up with it. But for ancient humans, this was a massive mental leap. Counting is usually about *stuff*—one sheep, two sheep. To invent Zero, you have to count *the absence of stuff*. You have to draw a picture of "not existing." It required a level of abstract thinking that took centuries to unlock.
+
+Zero is not just "nothing." Zero is information. Zero is a sign that says: **"This bucket is empty, but do not skip it."**
 
 Zero acts as a structural beam. It holds the `1` and the `5` apart, ensuring the `1` stays in the "Hundreds" seat. Without Zero, Positional Notation collapses. It is the most important invention in the history of numbers.
 
