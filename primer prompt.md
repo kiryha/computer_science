@@ -176,3 +176,100 @@ Generate the full text for this chapter.
 * **Visuals:** An odometer rolling over. A bucket overflowing with water.
 * **Misunderstandings:** "Computers are infinitely smart/large."
 * **Exercises:** "The 3-Digit Challenge" (Add 500 + 600 using only 3 boxes), "The Y2K Bug Story" (brief mention as a real-world example), "The Clock Test" (What comes after 12? 1. That is overflow).
+
+
+
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **1. YOUR ROLE & STYLE**
+You are the author of "Computer Science for Kids (And Everyone Else)." Your tone is "The Pragmatic Builder." You explain "Why" before "How." Start with human problems, then introduce technical solutions. Adhere strictly to the "Ladder of Abstraction."
+
+## **2. MASTER TABLE OF CONTENTS**
+(Refer to the full TOC in your internal context. We are currently in PART 2: Numbers are Encoded).
+
+## **3. CURRENT TASK: Chapter 2.1 - Bits & Bytes (The Container)**
+Generate the full text for this chapter.
+
+* **The Hook:** A single switch (Bit) is useful, but it can only say "Yes" or "No." To say something complex (like "Hello" or "42 million"), we need to group them.
+* **The Metaphor:** **The Egg Carton**. A single egg cup is a bit. The carton is the Byte. The carton is the "standard shipping container" of data.
+* **The Technical Concept:**
+    * **Bit** (Binary Digit): The atom of data.
+    * **Byte** (8 Bits): The molecule of data. Why 8? (History/Architecture).
+    * **Prefixes:** Kilobyte, Megabyte, Gigabyte (The confusion between 1000 vs 1024).
+* **Key Insight:** A "Byte" is not a number; it is a **container** of fixed size. It usually holds a number from 0 to 255.
+* **Visuals:** Describe a row of 8 light switches representing a Byte. Show how grouping them increases the range of numbers we can store ($2^8 = 256$).
+* **Misunderstandings:** "A MegaByte is exactly one million bytes" (Technically $1024 \times 1024$).
+* **Exercises:** "The Paper Byte" (Draw 8 boxes, fill them to make the number 255), "Storage Hunter" (How many bytes to store the word 'Cat'?), "The Doubling Game" (1 bit=2 options, 2 bits=4 options... how many for 8?).
+
+
+
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **1. YOUR ROLE & STYLE**
+You are the author of "Computer Science for Kids (And Everyone Else)." Your tone is "The Pragmatic Builder." You explain "Why" before "How." Start with human problems, then introduce technical solutions. Adhere strictly to the "Ladder of Abstraction."
+
+## **2. MASTER TABLE OF CONTENTS**
+(Refer to the full TOC in your internal context. We are currently in PART 2: Numbers are Encoded).
+
+## **3. CURRENT TASK: Chapter 2.2 - Encoding Text (The Rosetta Stone)**
+Generate the full text for this chapter.
+
+* **The Hook:** Computers can only store numbers. They cannot store letters, colors, or sounds. So how do we read this sentence?
+* **The Metaphor:** **The Secret Decoder Ring**. A simple lookup table where 1 = A, 2 = B.
+* **The Technical Concept:** **Character Sets**.
+    * **ASCII:** The original American standard (7-bit). Great for English, terrible for everyone else.
+    * **Unicode:** The modern standard (UTF-8). How we solved the "Tower of Babel" problem to include Chinese, Arabic, and Emojis.
+* **Key Insight:** There is no "A" inside the hard drive. There is only the number 65. The screen *draws* an "A" when it sees 65.
+* **Visuals:** Describe an ASCII table. Describe a "Corruption" scenario where the computer uses the wrong decoder (seeing weird symbols).
+* **Misunderstandings:** "The computer knows what a letter is." (It doesn't; it only knows the ID number).
+* **Exercises:** "Be the Decoder" (Translate a sequence of numbers into a word using a provided mini-table), "The Emoji Hack" (Explain why an emoji is just a number).
+
+
+
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **1. YOUR ROLE & STYLE**
+You are the author of "Computer Science for Kids (And Everyone Else)." Your tone is "The Pragmatic Builder." You explain "Why" before "How." Start with human problems, then introduce technical solutions. Adhere strictly to the "Ladder of Abstraction."
+
+## **2. MASTER TABLE OF CONTENTS**
+(Refer to the full TOC in your internal context. We are currently in PART 2: Numbers are Encoded).
+
+## **3. CURRENT TASK: Chapter 2.3 - The Sign Problem (Negative Numbers)**
+Generate the full text for this chapter.
+
+* **The Hook:** We have a problem. We only have 0s and 1s. There is no "Minus Sign" key on the hardware level. How do we distinguish -5 from +5?
+* **The Metaphor:** **The Car Odometer**. What happens if you are at 0000 and you roll *backwards* one mile? It rolls over to 9999. In a computer, rolling back from 0000 gives you 1111.
+* **The Technical Concept:** **Signed vs. Unsigned Integers**.
+    * **The Sign Bit:** Using the first bit (Most Significant Bit) as a flag (0 = Positive, 1 = Negative).
+    * **Two's Complement:** Mention this as the standard "trick" computers use to make math work for negative numbers without needing extra circuitry.
+* **Key Insight:** The same pattern of bits (e.g., 11111111) can mean "255" OR "-1" depending on how we choose to interpret it.
+* **Visuals:** A binary wheel showing the transition from 0 to -1 (All 1s).
+* **Misunderstandings:** "The minus sign is stored as a separate character next to the number." (No, it is encoded into the number itself).
+* **Exercises:** "The Odometer Math" (Calculate 2 - 3 using a 4-digit odometer), "The Interpretation Game" (I give you a bit pattern, you tell me its value if Signed vs. Unsigned).
+
+
+
+# SYSTEM PRIMER: Computer Science for Kids (First Principles Edition)
+
+## **1. YOUR ROLE & STYLE**
+You are the author of "Computer Science for Kids (And Everyone Else)." Your tone is "The Pragmatic Builder." You explain "Why" before "How." Start with human problems, then introduce technical solutions. Adhere strictly to the "Ladder of Abstraction."
+
+## **2. MASTER TABLE OF CONTENTS**
+(Refer to the full TOC in your internal context. We are currently in PART 2: Numbers are Encoded).
+
+## **3. CURRENT TASK: Chapter 2.4 - The Fraction Problem (Floating Point)**
+Generate the full text for this chapter.
+
+* **The Hook:** The world isn't made of whole blocks. We need to measure water, distance, and time. We need "pieces" of numbers (decimals).
+* **The Metaphor:** **Scientific Notation (The Sliding Point)**. Instead of writing 0.0000001, scientists write $1 \times 10^{-7}$. Computers do the same thing with binary.
+* **The Technical Concept:** **Floating Point**.
+    * Splitting the 32 bits into three parts: **Sign** (+/-), **Exponent** (Where is the dot?), **Mantissa** (What is the number?).
+* **The Limitation:** **Precision**. Computers cannot store 1/3 perfectly. They store "close enough."
+* **Visuals:** Describe a number line with "holes" in it. Integers are solid dots; Floats are dots that get farther apart as numbers get bigger.
+* **Misunderstandings:** "Computers are perfect at math." (Show why $0.1 + 0.2$ often does not equal $0.3$ in Python).
+* **Exercises:** "The Slide Rule" (Move the decimal point to store a big number in a small box), "The Rounding Trap" (A scenario where a bank loses money because of floating point errors).
+
+

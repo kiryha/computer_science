@@ -514,4 +514,4 @@ The computer is not "broken." It did exactly what you built it to do. It just di
 * **Lesson:** This tiny decision to save 2 digits cost billions of dollars to fix. Limits matter.
 
 ---
-**Next Step:** We have covered the history and the structure of numbers. We know how to count (Integers). But how do we read? How does a computer turn `01000001` into the letter "A"? Proceed to **Part 2: Numbers are Encoded.**
+**Next Step:** We have covered the history and the structure of numbers. We know how to count (Integers). But how do we read? How does a computer turn `01000001` into the letter "A"?

@@ -6,7 +6,7 @@ import pdfkit
 
 config = pdfkit.configuration(wkhtmltopdf=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
 
-list_of_files = ['book_src/table_of_content.md', 'book_src/intro.md', 'book_src/Part_1.md']
+list_of_files = ['book_src/title.md', 'book_src/intro.md', 'book_src/table_of_content.md', 'book_src/Part_1.md']
 output_file = 'book/Computer Science For Kids.pdf'
 
 def convert_md_to_pdf(list_of_files, output_file):
