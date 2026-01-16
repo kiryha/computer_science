@@ -12,7 +12,7 @@ LIST_OF_FILES = [
     'book_src/title.md',
     'book_src/intro.md',
     'book_src/table_of_content.md',
-    'book_src/Part_1.md',
+    'book_src/Part_1_PR.md',
 ]
 
 PDF_OPTIONS = {
