@@ -52,6 +52,7 @@ If you freeze time, the State is the exact answer to the question: *"How many pe
 * In the evening, the State changes again (removing pebbles).
 
 Computers are simply machines that manipulate State. They take Data in, store it, change it, and push it back out.
+"The bag is the first Hard Drive. It remembers the State when you are not looking."
 
 ### **The Texture of Data: Integers vs. Floats**
 Now that we have captured Reality inside our bag, we have to ask: *What does this data look like?*
