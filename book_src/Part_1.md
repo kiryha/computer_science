@@ -417,8 +417,8 @@ I tell you: *"Write down your yearly salary."* You can fit it easily ($50,000).
 Then I say: *"Write down the number of atoms in the galaxy."*
 You start writing zeros. You write until you hit the edge of the paper. You write on the desk. You write on the floor. Eventually, you run out of room.
 
-Computers have this exact problem, but worse. A computer cannot write on the desk. It has a rigid, fixed amount of switches for every number. It has a "Hardware Limit."
-What happens when you hit that limit? The computer doesn't just stop. It lies to you.
+Computers have this exact problem, but worse. A computer cannot write on the desk. It has a rigid, fixed amount of switches for every number. It has a **Hardware Limit**.
+What happens when you hit that limit? The computer doesn't just stop. It warps reality.
 
 ## **2. The Metaphor: The Odometer Rollover**
 To understand this danger, let's go back to our car's **Odometer**.
@@ -436,45 +436,53 @@ You drive one more mile.
 
 **The Result:** The `1` falls off the edge of reality. It vanishes.
 The odometer reads **000,000**.
-According to the machine, this is a brand new car. According to reality, it is a wreck.
-This phenomenon is called **Overflow**.
+According to the machine, this is a brand new car. According to reality, it is a wreck. This phenomenon is called **Overflow**.
 
-## **3. The Technical Explanation: Bit Width**
-In Computer Science, we don't have infinite paper. We decide ahead of time exactly how many switches we will use to store a number. We call this the **Bit Width**.
+## **3. The Technical Explanation: The Number Circle**
+Why does the number go back to zero? To understand this, we have to change the shape of math in our heads.
 
-Think of Bit Width as the "size of the box."
+**Humans use a Number Line.**
+We imagine numbers starting at 0 and walking to the right forever. The line never ends.
 
-**The 8-Bit Box (The Game Boy Era)**
-Early computers used 8 switches (8 bits) to store a number.
-* **Minimum:** `00000000` (0)
-* **Maximum:** `11111111` (255)
-If you tried to calculate `255 + 1`, the answer wasn't 256. It was **0**.
-(This is why, in old video games, if you collected 256 coins, your score might reset to zero!)
+**Computers use a Number Circle.**
+Because a computer has a fixed limit, its math loops back on itself.
+Imagine a standard wall clock. It has the numbers 1 through 12.
+* If you start at 12 and add 1 hour, where do you go?
+* You don't go to "13 o'clock."
+* You go to **1**.
 
-**The 64-Bit Box (The Modern Era)**
-Modern computers usually use 64 switches.
-* **Maximum:** 18,446,744,073,709,551,615.
-This number is so huge that we rarely hit the limit for counting things. But for scientific calculations or encryption, we still have to worry about running out of space.
+In Computer Science, this is called **Modular Arithmetic**. The universe wraps around.
+If you have an 8-bit computer, your "clock" has numbers from 0 to 255.
+* **255 + 1 = 0**
+* **255 + 2 = 1**
 
-## **4. Deep Dive: Where does the "Carry" go?**
-When you add `1` to `1111` (Binary 15) in a 4-bit computer, here is exactly what happens physically:
+Overflow isn't an accident; it is the shape of the world inside the chip. The computer isn't broken—it is just running in circles.
 
-1.  **Add 1:** The first switch flips from 1 to 0. (Carry 1).
-2.  **Ripple:** The next switch flips. (Carry 1).
-3.  **Ripple:** The next switch flips. (Carry 1).
-4.  **The End:** The last switch flips from 1 to 0. It tries to send a "Carry" signal to the next wire.
-5.  **The Drop:** But there is no wire. The electrical pulse hits a dead end. It dissipates into heat.
+## **4. Deep Dive: Bit Width (The Size of the Circle)**
+If all computers are circles, how do we count big numbers? We build bigger circles.
+We decide ahead of time exactly how many switches we will use to store a number. We call this the **Bit Width**.
 
-The information is lost forever.
-The computer is not "broken." It did exactly what you built it to do. It just didn't have enough room to tell the truth.
+**The 8-Bit Circle (The Game Boy Era)**
+Early computers used 8 switches (8 bits) to store a number. The circle was small.
+* **Range:** 0 to 255.
+* **Danger:** If you collected 256 coins in an old video game, your score would reset to 0.
+
+**The 64-Bit Circle (The Modern Era)**
+Modern computers usually use 64 switches. The circle is gigantic.
+* **Range:** 0 to 18,446,744,073,709,551,615.
+This circle is so huge that for most human problems (counting sheep, dollars, or likes), it *feels* like a straight line. We rarely hit the "wrap around" point. But for scientific calculations, the edge is still there.
 
 ## **5. Diagram Description**
-> **Diagram Description: The Bucket Overflow**
+
+
+> **Diagram Description: The Clock Face of Data**
 >
-> * **Visual:** A plastic bucket filled to the absolute brim with water. The water level is labeled "255 (Max Value)."
-> * **Action:** A hand adds **one single drop** of water to the bucket.
-> * **Result:** The water doesn't just bulge; the surface tension breaks, and water spills over the sides onto the floor.
-> * **The Label:** "Overflow doesn't make the number bigger; it makes a mess."
+> * **Visual:** A large circle, drawn like a clock face.
+> * **Top of the Clock (12:00 position):** Labeled **"0"**.
+> * **Moving Clockwise:** Labeled **"1, 2, 3..."**
+> * **Left Side of Clock (11:00 position):** Labeled **"255 (Max Value)"**.
+> * **The Action:** An arrow points from **255** clockwise to **0**.
+> * **Caption:** "In a finite system, the end is connected to the beginning."
 
 ## **6. Common Misunderstandings**
 
@@ -482,36 +490,33 @@ The computer is not "broken." It did exactly what you built it to do. It just di
 **Correction:** Computers are finite. They are constrained by physics. If you ask a standard calculator to calculate Pi to the billionth digit, it will fail. It doesn't have enough memory (paper) to write the answer.
 
 ### **Myth: "A bigger number is always safe."**
-**Correction:** In overflow, a bigger number is *more* dangerous. If you are storing money and you have \$250 (in an 8-bit system), adding \$10 is safe. Adding \$100 triggers overflow and resets your account to \$94. You just lost money by saving it.
+**Correction:** In overflow, a bigger number is *more* dangerous. If you are storing money and you have $250 (in an 8-bit system), adding $10 is safe. Adding $100 triggers overflow and resets your account to $94. You just lost money by saving it.
 
 ## **7. Exercises: The Paper Computer**
 
 ### **Exercise 1: The Clock Test**
-* **Goal:** Understand "Modulus" (Circular Counting).
+* **Goal:** Understand Modular Arithmetic intuitively.
 * **Action:** Look at a standard wall clock.
-* **Question:** What is **11 + 2**?
-* **Math Answer:** 13.
-* **Clock Answer:** 1.
-* **Lesson:** A clock is a "Base-12" system with automatic overflow. When it hits 12, it wraps around. Computers do this with *every* number system they use.
+* **Question:** What is **11 + 3**?
+* **Math Answer:** 14.
+* **Clock Answer:** 2.
+* **Lesson:** You perform "Overflow" logic every single day when you plan your schedule. You instinctively know that 13:00 is actually 1:00.
 
 ### **Exercise 2: The 3-Digit Challenge**
 * **Goal:** Crash the system.
 * **Setup:** Draw 3 boxes on a paper: `[ ] [ ] [ ]`. You are only allowed to write one digit in each box.
 * **Task:** Calculate **500 + 600**.
-* **Process:**
-    * 0 + 0 = 0.
-    * 0 + 0 = 0.
-    * 5 + 6 = 11.
+* **Process:** `5 + 6 = 11`.
 * **The Problem:** You have to write "11" in the first box. You can't. You write the "1" and ignore the other "1".
 * **Result:** The paper says **100**. Your math was right, but your "hardware" failed.
 
-### **Exercise 3: The Y2K Bug Story**
-* **Goal:** A real-world disaster.
-* **Context:** In the 1990s, computer engineers wanted to save space. Instead of storing years as "1998", they just stored "98". They used a 2-digit box.
-* **The Question:** What happens after the year "99"?
-* **The Overflow:** The counter rolls to "00".
-* **The Panic:** Does "00" mean the year 2000? Or does it mean 1900? Will the banks calculate interest for minus 100 years?
-* **Lesson:** This tiny decision to save 2 digits cost billions of dollars to fix. Limits matter.
+### **Exercise 3: The "Gandhi" Glitch (Underflow)**
+* **Goal:** Walk the circle backward.
+* **Story:** In the game *Civilization*, the leader Gandhi had an aggression score of **1** (very peaceful). The game tried to make him *more* peaceful by subtracting 2.
+* **The Math:** `1 - 2 = -1`.
+* **The Glitch:** The computer could not handle negative numbers (it was an "Unsigned" circle). So, walking back 2 steps from 1 didn't go to -1. It wrapped around the circle to **255**.
+* **Result:** 255 is the maximum aggression. Gandhi became a nuclear warlord.
+* **Lesson:** The cliff exists on both sides of the circle.
 
 ---
-**Next Step:** We have covered the history and the structure of numbers. We know how to count (Integers). But how do we read? How does a computer turn `01000001` into the letter "A"?
+**Next Step:** We have covered the history and the structure of numbers. We know how to count (Integers). But how do we read? How does a computer turn `01000001` into the letter "A"? Proceed to **Part 2: Numbers are Encoded.**
