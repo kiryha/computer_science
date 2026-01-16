@@ -1,5 +1,5 @@
-# Movie / Cartoon Creation Brief — **The Last Algorithm**
-*(Cartoon series based on the book “Computer Science for Kids”; education-first)* :contentReference[oaicite:0]{index=0}
+# **The Last Algorithm**: Animation Creation Brief
+Cartoon series based on the book “Computer Science for Kids”; education-first
 
 ## 0) What this is
 A TikTok cartoon series that teaches **Computer Science fundamentals** as a **fantastic post-apocalyptic adventure**.
@@ -90,10 +90,10 @@ CS naturally creates power, and power creates conflict.
 ---
 
 ## 5) Season 1 Overplot (Part 1) — **“Numbers Exist”**
-*(This season is based on Part 1 of the book.)* :contentReference[oaicite:1]{index=1}
+*(This season is based on Part 1 of the book.)* 
 
 ### Season theme question
-> **If numbers are inventions… why do they control reality?** :contentReference[oaicite:2]{index=2}
+> **If numbers are inventions… why do they control reality?** 
 
 ### Season macro-plot
 A settlement collapses because it cannot:
@@ -140,7 +140,7 @@ Every episode includes a local conflict:
 ---
 
 ## 7) Episode Length + Timing Specifications (target: 5 minutes)
-**Episode = Chapter** (for Season 1). :contentReference[oaicite:3]{index=3}
+**Episode = Chapter** (for Season 1)
 
 ### Runtime target
 - **3–6 minutes** acceptable range
@@ -169,7 +169,7 @@ Rule:
 Each episode chat must include:
 1) this Movie Brief
 2) the Episode Template
-3) attached **CS for kids.pdf** (source of truth) :contentReference[oaicite:4]{index=4}
+3) attached **CS for kids.pdf** (source of truth)
 4) the target chapter: “This episode is Chapter X.Y: <title>”
 
 Output for each episode script:
