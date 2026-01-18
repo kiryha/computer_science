@@ -14,7 +14,11 @@ A TikTok cartoon series that teaches **Computer Science fundamentals** as a **fa
 ---
 
 ## 1) High Concept
-> Post-apocalypse. Humans survived but forgot science. They treat Old World technology like gods/devils. A few robots survived too—still intelligent, but decaying and unable to reproduce their own parts. Humans and robots form an uneasy alliance to rebuild civilization by rebuilding computation from scratch, one concept per episode—starting from numbers.
+> Post-apocalypse. Earth collapsed generations ago. Humans regressed to roughly **18th-century tech**, losing the ability to rebuild advanced systems. Old World relics remain: robots, machines, sealed devices—slowly decaying. Most humans mythologize tech as gods/devils.  
+>  
+> The story takes place in the **ruins of Los Angeles**, split into two worlds: **New Angeles** (a rational science-utopia) and nearby **superstitious settlements**.  
+>  
+> Our heroes live outside the city, in a small settlement near NA, and work as a **search group** retrieving books, manuals, hard drives, and artifacts for New Angeles. Each mission forces them to rebuild computation from scratch—**one CS concept per episode**, starting with numbers.
 
 ### Dual-education engine (core relationship)
 - **Robots teach humans CS** (structure, logic, technology)
@@ -26,26 +30,63 @@ They rebuild:
 
 ---
 
-## 2) World Setup (Tech Regression)
-### Civilization state
-Primitive mechanics + primitive electricity:
-- gears, levers, crude generators, wiring, basic relays
+## 2) World Setup (Los Angeles + Tech Regression)
+
+### 2A) Civilization state (after regression)
+Primitive mechanics + crude electricity:
+- gears, levers, pulleys
+- steam and basic generators
+- wiring, basic relays and coils
+- basic chemistry / metallurgy
+
 But lost:
 - precision manufacturing
 - microchips and the supply chain
-- “how to reproduce the ladder”
+- the ability to reproduce the “tech ladder”
 
 World rule:
 > They didn’t lose “technology”. They lost the ability to rebuild it.
 
-### Culture
+### 2B) Outside settlements (default human reality)
 Humans are superstitious about tech:
 - “cursed machines”
 - “forbidden numbers”
 - technogods / technodevils
+- rituals replacing engineering
+
+Computers are not understood at all:
+> Knowledge of computation is essentially gone — rebuilding it is the entire educational arc of the series.
 
 Robots treat humans as irrational noise.
 Humans treat robots as miracles, threats, or property.
+
+### 2C) Geography / visual style
+- Setting: **Los Angeles ruins**
+- Visual reference: **withered futuristic city** (Futurama-adjacent)
+- Architecture: far-future asymmetry; **concrete + metal + glass + tile**
+- Most buildings are broken or partially collapsed; relic infrastructure remains
+
+### 2D) New Angeles (NA) — science city (context, not the heroes’ home)
+New Angeles is a major city inside LA:
+- rational and scientific (no religion in official culture)
+- **science is absolute**; education is part of science
+- open, progressive, peaceful
+- high quality of life + medicine due to knowledge
+- trades with settlements and contracts work to them
+- feared by outsiders with superstitious dread
+
+Hidden negatives (utopian but not perfect):
+1) **Emotional sterilization**: stability reduces passion.
+2) **Meaning vacuum**: science solves “how,” not “why” → quiet existential emptiness.
+3) **Fragility**: depends on continuous learning/maintenance; entropy is a constant threat.
+4) **Optimization pressure**: cultural expectation to be useful/measureable; creates marginals.
+
+### 2E) Hero settlement (primary human environment)
+Main characters live in a small settlement near NA:
+- population: **a few hundred**
+- former LA district (not suburbia)
+- many surviving mid-rise buildings (**3–5 floors**)
+- culture is superstitious with weak baseline education and no CS literacy
 
 ---
 
@@ -70,7 +111,7 @@ Season 1 is based on Part 1 of the book.
 > **If numbers are inventions… why do they control reality?**
 
 ### Macro-plot
-The settlement collapses because it cannot:
+The hero settlement collapses because it cannot:
 - count reliably
 - measure reliably
 - store truth reliably
@@ -88,7 +129,7 @@ It responds only to correct numeric thinking.
 
 ## 5) Conflict Model (high-level)
 ### Protagonist
-The mixed team (humans + robots), rebuilding computation *without rebuilding old tyranny.*
+A mixed team (humans + robots), rebuilding computation *without rebuilding old tyranny.*
 
 ### Core antagonist theme
 > **Optimization without humanity**  
@@ -100,6 +141,8 @@ Every episode must contain one fight:
 - emotion vs logic
 - “who owns knowledge”
 - “who controls measurement”
+- superstition vs proof
+- tribal myth vs scientific explanation
 
 ---
 
@@ -167,12 +210,25 @@ Each episode must be built in stages (no “final script first”).
 
 ---
 
-## 9) How episode chats will work (knowledge transfer)
+## 9) Main Characters (placeholder; built in separate thread)
+Core team:
+- **2 robots**
+- **3 humans**
+
+Each character profile must include:
+- role in the search group
+- flaw (comedy + conflict generator)
+- what they learn in Season 1
+- relationship to NA (fear / envy / loyalty / resentment)
+
+---
+
+## 10) How episode chats will work (knowledge transfer)
 This chat = **Thread B** (series plot bible)
 
 Each episode gets its own chat.
 In every new episode chat, user will paste:
-1) the **book contend as MD** 
+1) the **book content as MD** 
 2) this **Movie Brief**
 3) the **Episode Brief** (short, chapter-specific)
 
@@ -180,7 +236,7 @@ Then the model outputs Step 1 + Step 2 first, and proceeds only after approval.
 
 ---
 
-## 10) Guiding principles (non-negotiable)
+## 11) Guiding principles (non-negotiable)
 1) **Education is the product.**
 2) **Plot exists to force attention and memory.**
 3) **No skipping fundamentals.**
