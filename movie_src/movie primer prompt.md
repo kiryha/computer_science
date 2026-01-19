@@ -14,11 +14,20 @@ A TikTok cartoon series that teaches **Computer Science fundamentals** as a **fa
 ---
 
 ## 1) High Concept
-> Post-apocalypse. Earth collapsed generations ago. Humans regressed to roughly **18th-century tech**, losing the ability to rebuild advanced systems. Old World relics remain: robots, machines, sealed devices—slowly decaying. Most humans mythologize tech as gods/devils.  
->  
-> The story takes place in the **ruins of Los Angeles**, split into two worlds: **New Angeles** (a rational science-utopia) and nearby **superstitious settlements**.  
->  
-> Our heroes live outside the city, in a small settlement near NA, and work as a **search group** retrieving books, manuals, hard drives, and artifacts for New Angeles. Each mission forces them to rebuild computation from scratch—**one CS concept per episode**, starting with numbers.
+> Post-apocalypse. Earth collapsed generations ago. Humans regressed to roughly **18th-century tech** (mechanics, crude electricity, basic chemistry/metallurgy) and lost the ability to rebuild advanced systems. Old World leftovers remain—**robots, machines, sealed devices**—slowly decaying.  
+>
+> The story takes place in the **ruins of Los Angeles**, where most surviving technology has become incomprehensible relic matter: powerful, dangerous, and half-broken.  
+>
+> Inside LA exists **New Angeles (NA)** — a functioning contract-city built among the ruins. NA is not a “high-tech paradise”; it is a **survivor hub with rules**, where trade, bureaucracy, and salvage logistics replace chaos.  
+>
+> Our heroes **live in New Angeles** and work as an official **search group** sent outside the city to retrieve books, manuals, hard drives, parts, and artifacts. Each mission creates a concrete crisis that cannot be solved by instinct or superstition — forcing the team to **re-invent the next Computer Science concept from the book** as a survival tool (starting with counting).
+
+
+### Core series engine
+- **Every episode = a mission**
+- **Every mission creates a survival/business problem**
+- The chapter concept is the *only* tool that solves the problem
+- Therefore CS is not “taught” — it is **invented under pressure**
 
 ### Dual-education engine (core relationship)
 - **Robots teach humans CS** (structure, logic, technology)
@@ -42,51 +51,25 @@ Primitive mechanics + crude electricity:
 But lost:
 - precision manufacturing
 - microchips and the supply chain
-- the ability to reproduce the “tech ladder”
+- the ability to reproduce the “tech ladder” at scale
 
 World rule:
 > They didn’t lose “technology”. They lost the ability to rebuild it.
 
-### 2B) Outside settlements (default human reality)
-Humans are superstitious about tech:
-- “cursed machines”
-- “forbidden numbers”
-- technogods / technodevils
-- rituals replacing engineering
+### 2B) New Angeles (NA) — the functioning contract-city
+New Angeles is a major surviving hub within the LA ruins:
+- organized city-state with **laws, contracts, rationing, and enforcement**
+- **trade center** for surrounding districts
+- runs on salvage economy: parts, fuel, books, tools, batteries
+- officially rational/pragmatic, but surrounded by myth and fear
+- citizens are more educated than average, yet **Computer Science is still effectively lost** as a coherent ladder (no infrastructure, no reproducible toolchain)
 
-Computers are not understood at all:
-> Knowledge of computation is essentially gone — rebuilding it is the entire educational arc of the series.
+NA’s defining rule:
+> **Proof matters.**
 
-Robots treat humans as irrational noise.
-Humans treat robots as miracles, threats, or property.
 
-### 2C) Geography / visual style
-- Setting: **Los Angeles ruins**
-- Visual reference: **withered futuristic city** (Futurama-adjacent)
-- Architecture: far-future asymmetry; **concrete + metal + glass + tile**
-- Most buildings are broken or partially collapsed; relic infrastructure remains
-
-### 2D) New Angeles (NA) — science city (context, not the heroes’ home)
-New Angeles is a major city inside LA:
-- rational and scientific (no religion in official culture)
-- **science is absolute**; education is part of science
-- open, progressive, peaceful
-- high quality of life + medicine due to knowledge
-- trades with settlements and contracts work to them
-- feared by outsiders with superstitious dread
-
-Hidden negatives (utopian but not perfect):
-1) **Emotional sterilization**: stability reduces passion.
-2) **Meaning vacuum**: science solves “how,” not “why” → quiet existential emptiness.
-3) **Fragility**: depends on continuous learning/maintenance; entropy is a constant threat.
-4) **Optimization pressure**: cultural expectation to be useful/measureable; creates marginals.
-
-### 2E) Hero settlement (primary human environment)
-Main characters live in a small settlement near NA:
-- population: **a few hundred**
-- former LA district (not suburbia)
-- many surviving mid-rise buildings (**3–5 floors**)
-- culture is superstitious with weak baseline education and no CS literacy
+Purpose in story:
+> It provides mission structure and stakes without breaking the world’s ignorance.
 
 ---
 
@@ -111,7 +94,7 @@ Season 1 is based on Part 1 of the book.
 > **If numbers are inventions… why do they control reality?**
 
 ### Macro-plot
-The hero settlement collapses because it cannot:
+The hero settlement keeps nearly collapsing because it cannot:
 - count reliably
 - measure reliably
 - store truth reliably
@@ -120,10 +103,23 @@ The hero settlement collapses because it cannot:
 A surviving robot proposes:
 > “Before we rebuild machines, we must rebuild numbers.”
 
-### Reliquary (recurring season object)
-A sealed Old World artifact (vault/tower/control console).
+### Season structure rule (maps book → missions)
+> Each episode is built from the chapter’s hook/metaphor:
+> a mission reproduces the hook as a real crisis,
+> the characters invent the concept,
+> then misuse/twist shows the cliff.
+
+Example alignment:
+- **1.1 Counting & Measuring:** returning team cannot prove everyone is back → pebbles/state; then measuring continuous resources
+- **1.2 Place Value & Zero:** “nightmare of sticks” when inventory becomes huge; zero as placeholder prevents fatal accounting errors
+- **1.3 Binary:** flashlight/switch comms and relay logic become necessary for night missions and relic interfaces
+- **1.4 Overflow:** fixed-size counters/locks roll over and “warp reality” → modular arithmetic as literal danger
+
+### Reliquary (optional recurring season object)
+A sealed Old World artifact (vault/tower/control console) recurring through Season 1.
 It cannot be forced.
 It responds only to correct numeric thinking.
+(Use if it strengthens continuity; missions still work without it.)
 
 ---
 
@@ -135,14 +131,14 @@ A mixed team (humans + robots), rebuilding computation *without rebuilding old t
 > **Optimization without humanity**  
 Efficiency becoming control / surveillance / dictatorship.
 
-### Episode micro-conflict
+### Episode micro-conflict (required)
 Every episode must contain one fight:
 - shortcut vs correctness
 - emotion vs logic
 - “who owns knowledge”
 - “who controls measurement”
 - superstition vs proof
-- tribal myth vs scientific explanation
+- tribal myth vs system truth
 
 ---
 
@@ -219,7 +215,7 @@ Each character profile must include:
 - role in the search group
 - flaw (comedy + conflict generator)
 - what they learn in Season 1
-- relationship to NA (fear / envy / loyalty / resentment)
+- relationship to superstition vs proof
 
 ---
 
