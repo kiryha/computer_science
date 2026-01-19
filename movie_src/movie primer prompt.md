@@ -18,24 +18,9 @@ A TikTok cartoon series that teaches **Computer Science fundamentals** as a **fa
 >
 > The story takes place in the **ruins of Los Angeles**, where most surviving technology has become incomprehensible relic matter: powerful, dangerous, and half-broken.  
 >
-> Inside LA exists **New Angeles (NA)** — a functioning contract-city built among the ruins. NA is not a “high-tech paradise”; it is a **survivor hub with rules**, where trade, bureaucracy, and salvage logistics replace chaos.  
+> Inside LA exists **New Angeles (NA)** — a functioning contract-city built among the ruins. NA is not a “high-tech paradise”; it is a **survivor hub with laws**, where trade, bureaucracy, and salvage logistics replace chaos.  
 >
 > Our heroes **live in New Angeles** and work as an official **search group** sent outside the city to retrieve books, manuals, hard drives, parts, and artifacts. Each mission creates a concrete crisis that cannot be solved by instinct or superstition — forcing the team to **re-invent the next Computer Science concept from the book** as a survival tool (starting with counting).
-
-
-### Core series engine
-- **Every episode = a mission**
-- **Every mission creates a survival/business problem**
-- The chapter concept is the *only* tool that solves the problem
-- Therefore CS is not “taught” — it is **invented under pressure**
-
-### Dual-education engine (core relationship)
-- **Robots teach humans CS** (structure, logic, technology)
-- **Humans teach robots emotional intelligence** (meaning, identity, ethics)
-
-They rebuild:
-- civilization (hardware + systems)
-- themselves (purpose + humanity)
 
 ---
 
@@ -53,27 +38,86 @@ But lost:
 - microchips and the supply chain
 - the ability to reproduce the “tech ladder” at scale
 
-World rule:
+**World rule:**
 > They didn’t lose “technology”. They lost the ability to rebuild it.
 
 ### 2B) New Angeles (NA) — the functioning contract-city
-New Angeles is a major surviving hub within the LA ruins:
+New Angeles is a surviving hub inside the LA ruins:
 - organized city-state with **laws, contracts, rationing, and enforcement**
 - **trade center** for surrounding districts
-- runs on salvage economy: parts, fuel, books, tools, batteries
+- salvage economy: parts, fuel, tools, batteries, books, storage media
 - officially rational/pragmatic, but surrounded by myth and fear
-- citizens are more educated than average, yet **Computer Science is still effectively lost** as a coherent ladder (no infrastructure, no reproducible toolchain)
 
-NA’s defining rule:
-> **Proof matters.**
+NA’s operating philosophy:
+> **If it cannot be measured, counted, verified, and recorded — it does not exist.**
 
+### 2C) Outside world (the expedition zone)
+Outside NA: fragmented ruins and hostile micro-societies.
+- many people **mythologize technology** as gods/devils
+- **tech-superstition / techno-paganism** is common
+- relic sites are treated as cursed temples or hunting grounds
 
-Purpose in story:
-> It provides mission structure and stakes without breaking the world’s ignorance.
+Robots treat humans as irrational noise.
+Humans treat robots as miracles, threats, or property.
+
+### 2D) Geography / visual style
+- Setting: **Los Angeles ruins**
+- Visual reference: **withered futuristic city** (Futurama-adjacent)
+- Architecture: far-future asymmetry; **concrete + metal + glass + tile**
+- Many surviving buildings: **3–5 floor blocks**, connected by improvised bridges/stairs
+- Most structures are broken or partially collapsed; relic infrastructure remains
 
 ---
 
-## 3) Big Idea: CS as a Fantastic Adventure
+## 3) Core Engine (Non-negotiable story logic)
+### Episode engine (how story generates education)
+> **Every episode = mission + crisis + invention.**
+
+- The team is sent on a mission (contract from NA).
+- The mission introduces a concrete failure in reality:
+  - missing people, missing supplies, unfair trade, broken locks, night signaling, etc.
+- The team must invent the chapter concept to solve it:
+  - algorithm, representation, state, place value, binary, overflow, etc.
+- The concept is demonstrated physically (props/diagrams).
+- A misuse or shortcut creates consequences (“the cliff”).
+- End with punchline + sting.
+
+**Critical rule:**
+> CS is not “taught because we want to teach it”.  
+> CS is **reconstructed because reality forces it**.
+
+### Mission alignment rule (book → episode)
+> The episode crisis must reproduce the chapter’s **hook/metaphor** in-world.
+
+Example:
+- 1.1 Counting/Measuring → “shepherd problem” becomes “who returned alive?”
+- 1.3 Binary → flashlight/switch communication required for survival
+- 1.4 Overflow → fixed-size counters/locks roll over and warp reality
+
+---
+
+## 4) Robot Knowledge Constraint (required for stakes)
+Robots are intelligent, but **they do not contain the full lost ladder of Computer Science**.
+
+They are limited by two constraints:
+
+### A) Domain locking (specialist minds)
+- Each robot has narrow professional knowledge (logistics, comms, maintenance, etc.)
+- They can solve **their domain problems**, but cannot lecture the entire ladder
+- This prevents “robot Wikipedia” and forces humans to make conceptual leaps
+
+### B) Memory decay (fragmented truth)
+- Knowledge indexes are corrupted
+- Modules are missing
+- Memories glitch or contradict
+- Robots may remember procedures without full explanation
+
+**Robot world rule:**
+> Robots can assist. They cannot restore civilization alone.
+
+---
+
+## 5) Big Idea: CS as a Fantastic Adventure
 Each Computer Science concept becomes a **quest step**.
 
 Not metaphorically. Literally:
@@ -87,14 +131,14 @@ Core principle:
 
 ---
 
-## 4) Season 1 Overplot (Part 1) — **“Numbers Exist”**
+## 6) Season 1 Overplot (Part 1) — **“Numbers Exist”**
 Season 1 is based on Part 1 of the book.
 
 ### Season theme question
 > **If numbers are inventions… why do they control reality?**
 
 ### Macro-plot
-The hero settlement keeps nearly collapsing because it cannot:
+NA and the mission program keep nearly collapsing because they cannot:
 - count reliably
 - measure reliably
 - store truth reliably
@@ -103,27 +147,15 @@ The hero settlement keeps nearly collapsing because it cannot:
 A surviving robot proposes:
 > “Before we rebuild machines, we must rebuild numbers.”
 
-### Season structure rule (maps book → missions)
-> Each episode is built from the chapter’s hook/metaphor:
-> a mission reproduces the hook as a real crisis,
-> the characters invent the concept,
-> then misuse/twist shows the cliff.
-
-Example alignment:
-- **1.1 Counting & Measuring:** returning team cannot prove everyone is back → pebbles/state; then measuring continuous resources
-- **1.2 Place Value & Zero:** “nightmare of sticks” when inventory becomes huge; zero as placeholder prevents fatal accounting errors
-- **1.3 Binary:** flashlight/switch comms and relay logic become necessary for night missions and relic interfaces
-- **1.4 Overflow:** fixed-size counters/locks roll over and “warp reality” → modular arithmetic as literal danger
-
 ### Reliquary (optional recurring season object)
-A sealed Old World artifact (vault/tower/control console) recurring through Season 1.
+A sealed Old World artifact (vault/tower/control console).
 It cannot be forced.
 It responds only to correct numeric thinking.
 (Use if it strengthens continuity; missions still work without it.)
 
 ---
 
-## 5) Conflict Model (high-level)
+## 7) Conflict Model (high-level)
 ### Protagonist
 A mixed team (humans + robots), rebuilding computation *without rebuilding old tyranny.*
 
@@ -142,14 +174,14 @@ Every episode must contain one fight:
 
 ---
 
-## 6) Episode format: **Episode = Chapter**
+## 8) Episode format: **Episode = Chapter**
 For this project:
 - **Episode = Chapter** (one CS topic per episode)
 - each episode must be standalone, but tied to the season overplot
 
 ---
 
-## 7) Episode timing specifications (target: 5 minutes)
+## 9) Episode timing specifications (target: 5 minutes)
 ### Runtime target
 - acceptable: **3–6 minutes**
 - target: **~5:00 minutes**
@@ -170,7 +202,7 @@ Rule:
 
 ---
 
-## 8) Script writing workflow (step-by-step, top-to-bottom)
+## 10) Script writing workflow (step-by-step, top-to-bottom)
 Each episode must be built in stages (no “final script first”).
 
 ### Step 1 — Concept + Logline (2–5 lines)
@@ -206,7 +238,7 @@ Each episode must be built in stages (no “final script first”).
 
 ---
 
-## 9) Main Characters (placeholder; built in separate thread)
+## 11) Main Characters (placeholder; built in separate thread)
 Core team:
 - **2 robots**
 - **3 humans**
@@ -219,7 +251,7 @@ Each character profile must include:
 
 ---
 
-## 10) How episode chats will work (knowledge transfer)
+## 12) How episode chats will work (knowledge transfer)
 This chat = **Thread B** (series plot bible)
 
 Each episode gets its own chat.
@@ -232,7 +264,7 @@ Then the model outputs Step 1 + Step 2 first, and proceeds only after approval.
 
 ---
 
-## 11) Guiding principles (non-negotiable)
+## 13) Guiding principles (non-negotiable)
 1) **Education is the product.**
 2) **Plot exists to force attention and memory.**
 3) **No skipping fundamentals.**
