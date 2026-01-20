@@ -1,7 +1,7 @@
-# Movie Creation Brief — **The Last Algorithm**
+# **The Last Algorithm**: Movie Creation Brief
 Cartoon series based on the CS theory ladder from “Computer Science for Kids”; education-first
 
-## 0) What this is
+## Introduction: What this is
 A TikTok cartoon series that teaches **Computer Science fundamentals** as a **fantastic post-apocalyptic adventure**.
 
 - The book provides the **CS ladder / source theory**
