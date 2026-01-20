@@ -1,4 +1,4 @@
-# **The Last Algorithm**: Movie Creation Brief
+# **The Last Algorithm** — Movie Creation Brief
 Cartoon series based on the CS theory ladder from “Computer Science for Kids”; education-first
 
 ## Introduction: What this is
