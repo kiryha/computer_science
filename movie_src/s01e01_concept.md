@@ -1,13 +1,13 @@
-## S01E01 (Chapter 1.1) — Concept + Logline  
+## S01 E01 (Chapter 1.1)
 ### Counting & Measuring — The Invention of Amount
 
-### Concept (episode idea — 1 sentence)
+### Concept
 After the first scavenging mission returns to New Angeles, the settlement nearly tears itself apart over a single question nobody can prove: **is one person missing, or is it just fear and noise?**
 
-### CS promise (viewer understands X — 1 sentence)
+### CS promise
 The viewer learns why counting exists: not as “math,” but as **proof technology** built from **algorithm + one-to-one correspondence (data representation) + stored state**, and why **counting (integers)** is fundamentally different from **measuring (floats)**.
 
-### Ending sting (several sentences)
+### Ending sting
 Maya refuses to accept “trust me” as evidence and keeps asking one humiliating question: **“How do you know?”**—until the adults realize their terrifying weakness: without counting, truth is just the loudest voice.  
 The humans push the invention forward and the robots assist: Roberto formalizes the method into a strict procedure, Max builds the props fast, Warrior warns that systems become chains, and Hustler treats the crisis like a comedy show—until the method works and suddenly it isn’t funny anymore.  
 They create the pebble-bag protocol: **one person = one pebble**, and the bag becomes the first **receipt of existence**.  
