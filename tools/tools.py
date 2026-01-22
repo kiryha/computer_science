@@ -5,7 +5,7 @@ import markdown
 import pdfkit
 
 # CONFIGURATION
-OUTPUT_FILE = 'book/Computer Science For Kids.pdf'
+OUTPUT_FILE = 'book/Computer Science in Simple Terms.pdf'
 WKHTMLTOPDF_PATH = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
 
 LIST_OF_FILES = [
