@@ -47,3 +47,25 @@ Ask for **Step 1 + Step 2** first:
 - Timestamped Beat Outline
 
 Then iterate. Only after you approve outline/treatment, generate the full script.
+
+
+# Episodes Primer Prompt
+I am making a TV series based on CS book. 
+
+Here is Part 1 of the book:
+"""
+"""
+
+Here is a movie brief:
+"""
+"""
+
+Here is a Character Bible:
+"""
+"""
+
+Here is an episode brief:
+"""
+"""
+
+Provide Concept and logline for S01 E01
