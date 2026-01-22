@@ -11,6 +11,14 @@ A TikTok cartoon series that teaches **Computer Science fundamentals** as a **fa
   - cynical, absurd, smart jokes
   - but still humane and character-driven
 
+
+### Non-negotiable guiding principles
+1) **Education is the product.**
+2) **Plot exists to force attention and memory.**
+3) **No skipping fundamentals.**
+4) **Humans are meaning; robots are structure.**
+5) **Every abstraction has a cost.**
+
 ---
 
 ## 1) High Concept
@@ -238,35 +246,20 @@ Each episode must be built in stages (no “final script first”).
 
 ---
 
-## 11) Main Characters (placeholder; built in separate thread)
-Core team:
-- **2 robots**
-- **3 humans**
-
-Each character profile must include:
-- role in the search group
-- flaw (comedy + conflict generator)
-- what they learn in Season 1
-- relationship to superstition vs proof
+## 11) Main Characters
+Core team: **2 robots** and **3 humans**.  
+Characters full descriotion disclosed in **character bible** file.
 
 ---
 
-## 12) How episode chats will work (knowledge transfer)
-This chat = **Thread B** (series plot bible)
+## 12) knowledge transfer between GPT chats
 
 Each episode gets its own chat.
-In every new episode chat, user will paste:
-1) the **book content as MD** 
+In every new episode chat, user will paste (in MD format):
+1) the **CS For Kids book** 
 2) this **Movie Brief**
-3) the **Episode Brief** (short, chapter-specific)
+3) the **Character Bible**
+3) the **Episode Brief** for current chapter
 
 Then the model outputs Step 1 + Step 2 first, and proceeds only after approval.
 
----
-
-## 13) Guiding principles (non-negotiable)
-1) **Education is the product.**
-2) **Plot exists to force attention and memory.**
-3) **No skipping fundamentals.**
-4) **Humans are meaning; robots are structure.**
-5) **Every abstraction has a cost.**
