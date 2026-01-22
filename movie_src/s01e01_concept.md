@@ -1,13 +1,19 @@
-# S01E01 (Chapter 1.1) — Concept + Logline
+## S01E01 (Chapter 1.1) — Concept + Logline  
+### Counting & Measuring — The Invention of Amount
 
-## Counting & Measuring — The Invention of Amount
+### Concept (episode idea — 1 sentence)
+After the first scavenging mission returns to New Angeles, the settlement nearly tears itself apart over a single question nobody can prove: **is one person missing, or is it just fear and noise?**
 
-### Concept (2–5 lines)
+### CS promise (viewer understands X — 1 sentence)
+The viewer learns why counting exists: not as “math,” but as **proof technology** built from **algorithm + one-to-one correspondence (data representation) + stored state**, and why **counting (integers)** is fundamentally different from **measuring (floats)**.
 
-A scavenger team returns to New Angeles after their first mission. The leader insists everyone made it back—but a child says someone is missing. The settlement spirals into denial, superstition, and blame because nobody has a way to prove "same amount as before." A robot introduces a brutal invention: one-to-one correspondence, turning people into data (pebbles) and a bag into state (stored truth). They don't solve the tragedy yet—they invent the tool that will stop truth from being negotiated ever again.
+### Ending sting (several sentences)
+Maya refuses to accept “trust me” as evidence and keeps asking one humiliating question: **“How do you know?”**—until the adults realize their terrifying weakness: without counting, truth is just the loudest voice.  
+The humans push the invention forward and the robots assist: Roberto formalizes the method into a strict procedure, Max builds the props fast, Warrior warns that systems become chains, and Hustler treats the crisis like a comedy show—until the method works and suddenly it isn’t funny anymore.  
+They create the pebble-bag protocol: **one person = one pebble**, and the bag becomes the first **receipt of existence**.  
+Final sting: a second crew returns hauling a mountain of identical spare parts—so many that the pebble machine becomes absurd and physically impossible. Roberto lifts the bag and says: **“We can count now. But numbers don’t fit in pockets.”** → next episode: **Place Value**.
 
-### Logline (story + CS promise + sting)
+---
 
-When a returning mission sparks a crisis over whether someone is missing—and no one can prove anything—the team rebuilds counting from scratch by creating the "Pebble Machine": an algorithm that converts reality into data, stores it as state, and makes truth verifiable instead of political. They then face a second problem: some resources can't be counted cleanly at all, forcing the first distinction between integers (counting) and floats (measuring). 
-
-**End sting:** The robot seals the pebble bag and says, *"Now you can count. Next: how to count big numbers without drowning in pebbles."*
+### Logline
+When a returning scavenger mission sparks public panic over whether someone is missing, Maya forces the settlement to confront a brutal truth: without numbers they cannot prove reality at all. Together with Roberto and Max, they invent counting as a physical machine—a pebble-bag **algorithm** that turns people into **data**, stores truth as **state**, and creates a hard “receipt” no one can argue with. But the first time the system touches real logistics, it hits a new wall: some truths are too large to store one pebble at a time.
