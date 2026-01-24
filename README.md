@@ -1,4 +1,4 @@
-# Compute Science in Simpe Terms
+# Compute Science Made simple  
 
 This project is an educational animation series based on Computer Science book. 
 
