@@ -66,7 +66,7 @@ From **creation = addiction** → to **creation = conscience**.
 
 ---
 
-## 3) HUSTLER (Human, male 60s) — Human Bender / Lucky Rogue Finder
+## 3) FRANK RAZOR (Human, male 50s) — Human Bender / Lucky Rogue Finder
 **Archetype:** The Charming Rogue + Bad-Ass Positive Guy  
 **Team Function:** intuition, relic discovery, persuasion, exploration, “luck engine”, morale  
 **Silhouette / vibe:** tall, strong older man; relaxed confidence; always smiling like he knows a secret
@@ -97,33 +97,44 @@ From **survivor legend** → to **responsible mentor**.
 
 ---
 
-## 4) WARRIOR (Human, female) — Protector / Anti-Tyranny Blade
-**Archetype:** The Guardian + The Moral Wall  
-**Team Function:** survival, combat, moral boundary, stops authoritarian drift, protects Maya  
-**Silhouette / vibe:** strong controlled presence; efficient; calm violence
+## LUNA CORTEZ — Warrior / Firestarter / Team Engine
+**Archetype:** The Firestarter + Protector  
+**Role in team:** Motor of the group; momentum generator; anti-stagnation force
 
 ### Core Personality
-Hard, loyal, blunt. Not philosophical — but deeply principled.
-Suspicious of any “system” that smells like control.
+- Ringleader with unstoppable energy
+- Constantly breaks stereotypes
+- Questions everything by default, especially authority and “obvious truths”
+- Pushes people forward through friction, not comfort
+- Refuses to let the group settle into passivity
 
 ### 4 Core Features
-- **Signature obsession:** hunting those who killed her family
+- **Signature obsession:** hunting those who killed her family; refusing to let injustice become “normal”
 - **Taboo:** violence of any kind toward kids (absolute red line)
-- **Private shame:** she once failed/froze and someone died (core of her “never again” identity)
-- **Recurring joke style:** dominance of brains over muscles (sarcastic intimidation)  
-  (“Try thinking. If it hurts I’ll stop.”)
+- **Private shame:** once froze or failed when it mattered, and someone died; rebuilt herself as “never again”
+- **Recurring joke style:** dominance of brains over muscles; sarcastic pressure  
+  (“If thinking hurts, I’ll slow down.”)
+
+### Function in the Team
+- Stress-tests Roberto’s systems
+- Dares Max to use what he builds
+- Turns Frank Razor’s jokes into action
+- Demands consequences from Maya’s discoveries
 
 ### Personal History / Drama
-She trusted rules once. Rules failed. Family died.
-Now she believes people must be protected from “order” as much as from chaos.
+Former protector in a collapsing settlement. Trusted rules once. Rules failed.  
+Her family was killed while order pretended to work.
 
-**Wound:** “Systems don’t save people. People save people.”  
-**Need:** accept that rules can be humane — if guarded.
+**Wound:** “Systems don’t save people. People do.”  
+**Need:** learn that rules can be humane if guarded by conscience.
 
 ### Season Arc
-From **justice = revenge** → to **justice = protection**.
+From **justice as revenge** → to **justice as protection**
 
----
+### Tone Anchor
+She is the character who says:
+> “Why are we accepting this?”
+
 
 ## 5) MAYA (Human, girl) — Apprentice Spark / Future Programmer
 **Archetype:** The Learner + The Spark  
