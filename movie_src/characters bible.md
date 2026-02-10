@@ -174,15 +174,15 @@ From **learning = escape** → to **learning = power to rebuild**.
 ## Core dynamic triangle
 - **Roberto:** order = safety
 - **Max:** hacking = progress
-- **Warrior:** safety without freedom = tyranny
+- **Luna:** safety without freedom = tyranny
 
-## Maya + Hustler bond
-Hustler treats Maya like a partner, not a child. Maya copies his confidence.
+## Maya + Frank bond
+Frank treats Maya like a partner, not a child. Maya copies his confidence.
 He protects her without admitting it.
 
 ## Key running conflicts (episode-fuel)
-1) **shortcut vs correctness:** Max & Hustler vs Roberto  
-2) **order vs freedom:** Roberto vs Warrior  
+1) **shortcut vs correctness:** Max & Frank vs Roberto  
+2) **order vs freedom:** Roberto vs Luna  
 3) **truth vs comfort:** Maya vs everyone  
 4) **optimization vs humanity (season theme):** Roberto’s systems tempted into control
 
