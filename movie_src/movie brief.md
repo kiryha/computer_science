@@ -62,8 +62,8 @@ Chicago is a surviving hub inside the LA ruins:
 Chicago’s operating philosophy:
 > **If it cannot be measured, counted, verified, and recorded — it does not exist.**
 
-### 2C) Outside world (the expedition zone)
-Outside Chicago: fragmented ruins and hostile micro-societies.
+### 2C) Chicago districs (the expedition zone)
+Inside Chicago: fragmented ruins and hostile micro-societies based at pre-cataclyzm districs.
 - many people **mythologize technology** as gods/devils
 - **tech-superstition / techno-paganism** is common
 - relic sites are treated as cursed temples or hunting grounds
