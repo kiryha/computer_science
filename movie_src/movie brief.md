@@ -24,15 +24,18 @@ A TikTok cartoon series that teaches **Computer Science fundamentals** as a **fa
 ## 1) High Concept
 > Post-apocalypse. Earth collapsed generations ago. Humans regressed to roughly **18th-century tech** (mechanics, crude electricity, basic chemistry/metallurgy) and lost the ability to rebuild advanced systems. Old World leftovers remain—**robots, machines, sealed devices**—slowly decaying.  
 >
-> The story takes place in the **ruins of Los Angeles**, where most surviving technology has become incomprehensible relic matter: powerful, dangerous, and half-broken.  
+> The story takes place in the **ruins of Chicago** — a vertical graveyard of steel, concrete, rail lines, river bridges, and frozen lakefront infrastructure. Skyscrapers stand hollow. Elevated tracks rust above silent streets. Winter is a recurring antagonist.  
 >
-> Inside LA exists **New Angeles (NA)** — a functioning contract-city built among the ruins. NA is not a “high-tech paradise”; it is a **survivor hub with laws**, where trade, bureaucracy, and salvage logistics replace chaos.  
+> Chicago survives not as one unified city, but as a network of semi-stable **districts** — Loop, Lincoln Park, Ravenswood, and others — each with its own rules, shortages, and politics. Trade, salvage contracts, and fragile agreements hold them together.  
 >
-> Our heroes **live in New Angeles** and work as an official **search group** sent outside the city to retrieve books, manuals, hard drives, parts, and artifacts. Each mission creates a concrete crisis that cannot be solved by instinct or superstition — forcing the team to **re-invent the next Computer Science concept from the book** as a survival tool (starting with counting).
+> Our heroes live in one of these functioning districts and work as an official **search group**, sent beyond district borders to retrieve books, manuals, hard drives, parts, and relic devices from dangerous zones.  
+>
+> Each mission creates a concrete crisis that cannot be solved by instinct, force, or superstition — forcing the team to **re-invent the next Computer Science concept from the book** as a survival tool (starting with counting).
+
 
 ---
 
-## 2) World Setup (Los Angeles + Tech Regression)
+## 2) World Setup (Chicago + Tech Regression)
 
 ### 2A) Civilization state (after regression)
 Primitive mechanics + crude electricity:
@@ -49,18 +52,18 @@ But lost:
 **World rule:**
 > They didn’t lose “technology”. They lost the ability to rebuild it.
 
-### 2B) New Angeles (NA) — the functioning contract-city
-New Angeles is a surviving hub inside the LA ruins:
+### 2B) Chicago — the functioning contract-city
+Chicago is a surviving hub inside the LA ruins:
 - organized city-state with **laws, contracts, rationing, and enforcement**
 - **trade center** for surrounding districts
 - salvage economy: parts, fuel, tools, batteries, books, storage media
 - officially rational/pragmatic, but surrounded by myth and fear
 
-NA’s operating philosophy:
+Chicago’s operating philosophy:
 > **If it cannot be measured, counted, verified, and recorded — it does not exist.**
 
 ### 2C) Outside world (the expedition zone)
-Outside NA: fragmented ruins and hostile micro-societies.
+Outside Chicago: fragmented ruins and hostile micro-societies.
 - many people **mythologize technology** as gods/devils
 - **tech-superstition / techno-paganism** is common
 - relic sites are treated as cursed temples or hunting grounds
@@ -69,7 +72,7 @@ Robots treat humans as irrational noise.
 Humans treat robots as miracles, threats, or property.
 
 ### 2D) Geography / visual style
-- Setting: **Los Angeles ruins**
+- Setting: **Chicago ruins**
 - Visual reference: **withered futuristic city** (Futurama-adjacent)
 - Architecture: far-future asymmetry; **concrete + metal + glass + tile**
 - Many surviving buildings: **3–5 floor blocks**, connected by improvised bridges/stairs
@@ -81,7 +84,7 @@ Humans treat robots as miracles, threats, or property.
 ### Episode engine (how story generates education)
 > **Every episode = mission + crisis + invention.**
 
-- The team is sent on a mission (contract from NA).
+- The team is sent on a mission (contract from Chicago).
 - The mission introduces a concrete failure in reality:
   - missing people, missing supplies, unfair trade, broken locks, night signaling, etc.
 - The team must invent the chapter concept to solve it:
@@ -146,7 +149,7 @@ Season 1 is based on Part 1 of the book.
 > **If numbers are inventions… why do they control reality?**
 
 ### Macro-plot
-NA and the mission program keep nearly collapsing because they cannot:
+Chicago and the mission program keep nearly collapsing because they cannot:
 - count reliably
 - measure reliably
 - store truth reliably
