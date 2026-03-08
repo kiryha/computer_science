@@ -137,6 +137,9 @@ She is the character who says:
 
 
 ## 5) MAYA (Human, girl) — Apprentice Spark / Future Programmer
+
+![](../images/MAYA.jpeg)
+
 **Archetype:** The Learner + The Spark  
 **Team Function:** audience proxy, clarity engine, emotional truth, bridges humans/robots  
 **Silhouette / vibe:** small, fearless eyes; book bag; quick tongue
