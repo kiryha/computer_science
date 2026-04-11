@@ -67,6 +67,8 @@ From **creation = addiction** → to **creation = conscience**.
 ---
 
 ## 3) FRANK RAZOR (Human, male 50s) — Human Bender / Lucky Rogue Finder
+![](../images/FRANK.jpeg)
+
 **Archetype:** The Charming Rogue + Bad-Ass Positive Guy  
 **Team Function:** intuition, relic discovery, persuasion, exploration, “luck engine”, morale  
 **Silhouette / vibe:** tall, strong older man; relaxed confidence; always smiling like he knows a secret
