@@ -1,6 +1,8 @@
 # **The Last Algorithm** — Movie Creation Brief
 Cartoon series based on the CS theory ladder from “Computer Science for Kids”; education-first
 
+![](../images/characters.jpeg)
+
 ## Introduction: What this is
 A TikTok cartoon series that teaches **Computer Science fundamentals** as a **fantastic post-apocalyptic adventure**.
 
@@ -22,15 +24,18 @@ A TikTok cartoon series that teaches **Computer Science fundamentals** as a **fa
 ---
 
 ## 1) High Concept
-> Post-apocalypse. Earth collapsed generations ago. Humans regressed to roughly **18th-century tech** (mechanics, crude electricity, basic chemistry/metallurgy) and lost the ability to rebuild advanced systems. Old World leftovers remain—**robots, machines, sealed devices**—slowly decaying.  
->
-> The story takes place in the **ruins of Chicago** — a vertical graveyard of steel, concrete, rail lines, river bridges, and frozen lakefront infrastructure. Skyscrapers stand hollow. Elevated tracks rust above silent streets. Winter is a recurring antagonist.  
->
-> Chicago survives not as one unified city, but as a network of semi-stable **districts** — Loop, Lincoln Park, Ravenswood, and others — each with its own rules, shortages, and politics. Trade, salvage contracts, and fragile agreements hold them together.  
->
-> Our heroes live in one of these functioning districts and work as an official **search group**, sent beyond district borders to retrieve books, manuals, hard drives, parts, and relic devices from dangerous zones.  
->
-> Each mission creates a concrete crisis that cannot be solved by instinct, force, or superstition — forcing the team to **re-invent the next Computer Science concept from the book** as a survival tool (starting with counting).
+
+![ROBERTO](../images/environments.jpeg)
+
+Post-apocalypse. Earth collapsed generations ago. Humans regressed to roughly **18th-century tech** (mechanics, crude electricity, basic chemistry/metallurgy) and lost the ability to rebuild advanced systems. Old World leftovers remain—**robots, machines, sealed devices**—slowly decaying.  
+
+The story takes place in the **ruins of Chicago** — a vertical graveyard of steel, concrete, rail lines, river bridges, and frozen lakefront infrastructure. Skyscrapers stand hollow. Elevated tracks rust above silent streets. Winter is a recurring antagonist.  
+
+Chicago survives not as one unified city, but as a network of semi-stable **districts** — Loop, Lincoln Park, Ravenswood, and others — each with its own rules, shortages, and politics. Trade, salvage contracts, and fragile agreements hold them together.  
+
+Our heroes live in one of these functioning districts and work as an official **search group**, sent beyond district borders to retrieve books, manuals, hard drives, parts, and relic devices from dangerous zones.  
+
+Each mission creates a concrete crisis that cannot be solved by instinct, force, or superstition — forcing the team to **re-invent the next Computer Science concept from the book** as a survival tool (starting with counting).
 
 
 ---
